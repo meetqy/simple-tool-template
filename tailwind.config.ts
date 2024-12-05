@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
+
 import { nextui } from "@nextui-org/react";
 import { type Config } from "tailwindcss";
 import { fontFamily } from "tailwindcss/defaultTheme";
@@ -9,11 +11,14 @@ export default {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+      },
       fontFamily: {
         sans: ["var(--font-geist-sans)", ...fontFamily.sans],
       },
     },
   },
   darkMode: "class",
-  plugins: [nextui()],
+  plugins: [nextui(), require("@tailwindcss/typography")],
 } satisfies Config;

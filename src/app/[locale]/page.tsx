@@ -1,37 +1,52 @@
-import Link from "next/link";
+"use client";
+
+import { Link } from "~/i18n/routing";
+import { Button, Card, CardBody, CardHeader } from "@nextui-org/react";
 
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c] text-white">
-      <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16">
-        <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
-          Create <span className="text-[hsl(280,100%,70%)]">T3</span> App
-        </h1>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
-          <Link
-            className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
-            href="https://create.t3.gg/en/usage/first-steps"
-            target="_blank"
-          >
-            <h3 className="text-2xl font-bold">First Steps →</h3>
-            <div className="text-lg">
-              Just the basics - Everything you need to know to set up your
-              database and authentication.
-            </div>
-          </Link>
-          <Link
-            className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
-            href="https://create.t3.gg/en/introduction"
-            target="_blank"
-          >
-            <h3 className="text-2xl font-bold">Documentation →</h3>
-            <div className="text-lg">
-              Learn more about Create T3 App, the libraries it uses, and how to
-              deploy it.
-            </div>
-          </Link>
+    <>
+      <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
+        <div className="mx-auto max-w-2xl text-center">
+          <h1 className="text-balance text-4xl font-semibold tracking-tight sm:text-5xl">
+            How To Calculator
+          </h1>
+          <p className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-default-500">
+            <Link href={"/"} className="text-primary">
+              HowToCalculator.com
+            </Link>{" "}
+            , Solve your calculate problems in life.
+          </p>
+          <div className="mt-10 flex items-center justify-center gap-x-6">
+            <Button size="lg" color="primary">
+              views all calculators
+            </Button>
+          </div>
         </div>
       </div>
-    </main>
+      <main className="container my-12 grid max-w-screen-xl grid-cols-1 gap-4 p-4 sm:grid-cols-2 xl:grid-cols-3">
+        <Card className="relative w-full">
+          <Link
+            className="absolute inset-0 z-20 h-full w-full opacity-0"
+            href={"/auto-loan-payoff-calculator"}
+          >
+            Auto Loan Payoff Calculator
+          </Link>
+          <CardHeader className="p-0">
+            <div className="flex aspect-video w-full items-center justify-center bg-foreground text-background">
+              <h2 className="h2 border-0 text-center">
+                Auto Loan Payoff Calculator
+              </h2>
+            </div>
+          </CardHeader>
+          <CardBody>
+            <p className="text-center">
+              Use our auto loan payoff calculator to estimate your monthly
+              payments and payoff date.
+            </p>
+          </CardBody>
+        </Card>
+      </main>
+    </>
   );
 }

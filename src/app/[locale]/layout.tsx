@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     default: "How To Calculator",
     template: "%s | How To Calculator",
   },
-  description: "How to calculator,  Solve your calculate problems in life.",
+  description: "How to calculator, Solve your calculate problems in life.",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
@@ -27,6 +27,7 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
   // Ensure that the incoming `locale` is valid
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   if (!routing.locales.includes(locale as any)) {
     notFound();
   }
