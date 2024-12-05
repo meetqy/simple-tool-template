@@ -6,6 +6,8 @@ const withNextIntl = createNextIntlPlugin();
 const withMDX = createMDX({});
 
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+  pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
+};
 
 export default withNextIntl(withMDX(config));
