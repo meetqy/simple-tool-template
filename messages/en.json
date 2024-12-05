@@ -1,6 +1,11 @@
 {
   "Site": {
     "title": "How To Calculator",
-    "description": "How to calculator,  Solve your calculate problems in life."
+    "description": "Solve your calculate problems in life.",
+    "views-all-calculators": "views all calculators"
+  },
+  "auto-loan-payoff-calculator": {
+    "title": "Auto Loan Payoff Calculator",
+    "description": "Use our auto loan payoff calculator to estimate your monthly payments and payoff date."
   }
 }

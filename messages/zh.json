@@ -1,0 +1,11 @@
+{
+  "Site": {
+    "description": "解决您生活中的计算问题。",
+    "title": "How To Calculator",
+    "views-all-calculators": "查看所有计算器"
+  },
+  "auto-loan-payoff-calculator": {
+    "description": "使用我们的汽车贷款还款计算器来估计您的每月还款额和还款日期。",
+    "title": "汽车贷款还款计算器"
+  }
+}

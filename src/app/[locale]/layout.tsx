@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     default: "How To Calculator",
     template: "%s | How To Calculator",
   },
-  description: "How to calculator, Solve your calculate problems in life.",
+  description: "HowToCalculator, Solve your calculate problems in life.",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
