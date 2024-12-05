@@ -6,7 +6,8 @@ export function generateAlternates(pathname = "/") {
       canonical: `${baseUrl}${pathname}`,
       languages: {
         en: `${baseUrl}${pathname}`,
-        zh: `${baseUrl}/zh${pathname}`,
+        "zh-hans": `${baseUrl}/zh-hans/${pathname}`,
+        "zh-hant": `${baseUrl}/zh-hant/${pathname}`,
       },
     },
   };

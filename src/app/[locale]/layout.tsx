@@ -1,19 +1,28 @@
 import { type Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { MyNavbar } from "~/components/my-navbar";
 import { Providers } from "~/components/providers";
 import { routing } from "~/i18n/routing";
 import { GeistSans } from "geist/font/sans";
+import { Footer } from "~/components/footer";
+import { Languages } from "~/components/languages";
+import { generateAlternates } from "~/utils/generate-alternates";
 
-export const metadata: Metadata = {
-  title: {
-    default: "How To Calculator",
-    template: "%s | How To Calculator",
-  },
-  description: "HowToCalculator, Solve your calculate problems in life.",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+export const generateMetadata = async (): Promise<Metadata> => {
+  const { alternates } = generateAlternates();
+  const t = await getTranslations();
+
+  return {
+    title: {
+      default: t("Site.title"),
+      template: "%s | HowToCalculator",
+    },
+    description: `HowToCalculator, ${t("Site.description")}`,
+    alternates,
+    icons: [{ rel: "icon", url: "/favicon.ico" }],
+  };
 };
 
 type Params = Promise<{ locale: string }>;
@@ -43,6 +52,8 @@ export default async function LocaleLayout({
           <Providers>
             <MyNavbar />
             {children}
+            <Languages />
+            <Footer />
           </Providers>
         </NextIntlClientProvider>
       </body>

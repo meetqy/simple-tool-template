@@ -1,23 +1,21 @@
 "use client";
 
-import {
-  Navbar,
-  NavbarBrand,
-  NavbarContent,
-  NavbarItem,
-  Link,
-  Button,
-} from "@nextui-org/react";
+import { Link as LinkUi, Navbar, NavbarBrand } from "@nextui-org/react";
 import { CalculatorIcon } from "lucide-react";
+import { Link } from "~/i18n/routing";
 
 export const MyNavbar = () => {
   return (
     <Navbar maxWidth="xl">
       <NavbarBrand className="space-x-2">
-        <CalculatorIcon className="text-primary h-6 w-6" />
-        <p className="font-serif font-bold italic text-inherit">
+        <CalculatorIcon className="h-6 w-6 text-primary" />
+        <LinkUi
+          as={Link}
+          className="font-serif text-xl font-bold italic text-inherit"
+          href="/"
+        >
           HowToCalculator
-        </p>
+        </LinkUi>
       </NavbarBrand>
     </Navbar>
   );

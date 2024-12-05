@@ -1,0 +1,30 @@
+{
+  "Site": {
+    "description": "解決您生活中的計算問題。",
+    "monthly-interest": "每月利息",
+    "title": "How To Calculator",
+    "views-all-calculators": "查看所有計算器"
+  },
+  "auto-loan-payoff-calculator": {
+    "additional-monthly-payment": "每月額外付款",
+    "calculate-result-table": "計算結果表",
+    "description": "使用我們的汽車貸款還款計算器來估計您的每月還款額和還款日期。",
+    "how-long-is-your-loan-term": "您的貸款期限是多久？",
+    "how-many-months-are-left-on-your-loan-term": "您的貸款期限還剩多少個月？",
+    "interest-rate": "利率",
+    "key": "$",
+    "loan-amount": "貸款金額",
+    "monthly-payment": "每月付款",
+    "months": "幾個月",
+    "period": "時期",
+    "principal": "主要的",
+    "principal-balance": "本金餘額",
+    "remaining-months": "剩餘月份",
+    "select-loan-term": "選擇貸款期限",
+    "title": "汽車貸款還款計算器",
+    "what-is-the-interest-rate-on-your-loan": "您的貸款利率是多少？",
+    "what-is-your-additional-monthly-payment": "您每個月的額外付款是多少？",
+    "what-is-your-loan-amount": "您的貸款金額是多少？",
+    "your-new-monthly-payment-is": "您新的每月付款是"
+  }
+}

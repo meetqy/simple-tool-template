@@ -1,5 +1,3 @@
-"use client";
-
 import { Hero } from "./_components/hero";
 import { Grid } from "./_components/grid";
 
