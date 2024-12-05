@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Divider } from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
 import { useLocale } from "next-intl";
 import Link from "next/link";
 import { usePathname } from "~/i18n/routing";
