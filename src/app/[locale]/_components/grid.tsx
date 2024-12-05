@@ -12,7 +12,7 @@ export const Grid = () => {
       <Card className="relative w-full">
         <Link
           className="absolute inset-0 z-20 h-full w-full opacity-0"
-          href={"/auto-loan-payoff-calculator"}
+          href={"/financial/auto-loan-payoff-calculator"}
         >
           {t("auto-loan-payoff-calculator.title")}
         </Link>

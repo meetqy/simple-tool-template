@@ -2,10 +2,29 @@
   "Site": {
     "title": "How To Calculator",
     "description": "Solve your calculate problems in life.",
-    "views-all-calculators": "views all calculators"
+    "views-all-calculators": "views all calculators",
+    "monthly-interest": "Monthly interest"
   },
   "auto-loan-payoff-calculator": {
     "title": "Auto Loan Payoff Calculator",
-    "description": "Use our auto loan payoff calculator to estimate your monthly payments and payoff date."
+    "description": "Use our auto loan payoff calculator to estimate your monthly payments and payoff date.",
+    "what-is-your-loan-amount": "What is your loan amount?",
+    "loan-amount": "Loan amount",
+    "key": "$",
+    "what-is-the-interest-rate-on-your-loan": "What is the interest rate on your loan?",
+    "interest-rate": "Interest rate",
+    "how-long-is-your-loan-term": "How long is your loan term?",
+    "months": "Months",
+    "how-many-months-are-left-on-your-loan-term": "How many months are left on your loan term?",
+    "remaining-months": "Remaining months",
+    "what-is-your-additional-monthly-payment": "What is your additional monthly payment?",
+    "additional-monthly-payment": "Additional monthly payment",
+    "your-new-monthly-payment-is": "Your new monthly payment is",
+    "period": "Period",
+    "monthly-payment": "Monthly payment",
+    "principal": "Principal",
+    "principal-balance": "Principal balance",
+    "calculate-result-table": "calculate result table",
+    "select-loan-term": "Select loan term"
   }
 }

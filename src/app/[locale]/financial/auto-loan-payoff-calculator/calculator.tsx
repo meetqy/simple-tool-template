@@ -18,8 +18,10 @@ import {
   TableRow,
   TableCell,
 } from "@nextui-org/table";
+import { useTranslations } from "next-intl";
 
 export const Calculator = () => {
+  const t = useTranslations();
   const months = [12, 24, 36, 48, 60, 72, 84, 96];
   const [form, setForm] = useState({
     loanAmount: 0,
@@ -72,40 +74,46 @@ export const Calculator = () => {
   };
 
   return (
-    <Card className="p-4">
+    <Card className="m-2 p-4">
       <CardHeader>
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-          Auto loan payoff calculator
+          {t("auto-loan-payoff-calculator.title")}
         </h1>
       </CardHeader>
       <CardBody className="my-8 gap-8">
         <Input
           size="lg"
-          placeholder="Loan amount"
+          placeholder={t("auto-loan-payoff-calculator.loan-amount")}
           name="loanAmount"
           type="number"
           value={form.loanAmount ? form.loanAmount.toString() : ""}
           onChange={handleInputChange}
           label={
-            <h2 className="text-lg font-semibold">What is your loan amount?</h2>
+            <h2 className="text-lg font-semibold">
+              {t("auto-loan-payoff-calculator.what-is-your-loan-amount")}
+            </h2>
           }
           labelPlacement="outside"
           startContent={
             <div className="pointer-events-none flex items-center">
-              <span className="text-small text-default-400">$</span>
+              <span className="text-small text-default-400">
+                {t("auto-loan-payoff-calculator.key")}
+              </span>
             </div>
           }
         />
         <Input
           size="lg"
-          placeholder="Interest rate"
+          placeholder={t("auto-loan-payoff-calculator.interest-rate")}
           type="number"
           name="interestRate"
           value={form.interestRate ? form.interestRate.toString() : ""}
           onChange={handleInputChange}
           label={
             <h2 className="text-lg font-semibold">
-              What is the interest rate on your loan?
+              {t(
+                "auto-loan-payoff-calculator.what-is-the-interest-rate-on-your-loan",
+              )}
             </h2>
           }
           labelPlacement="outside"
@@ -122,36 +130,40 @@ export const Calculator = () => {
           onSelect={(e) => setForm({ ...form, loanTerm: Number(e) })}
           label={
             <h2 className="text-lg font-semibold">
-              How long is your loan term?
+              {t("auto-loan-payoff-calculator.how-long-is-your-loan-term")}
             </h2>
           }
           labelPlacement="outside"
           size="lg"
-          placeholder="Select loan term"
+          placeholder={t("auto-loan-payoff-calculator.select-loan-term")}
         >
           {months.map((month) => (
             <SelectItem key={month} textValue={`${month} Months`}>
-              {month} Months
+              {month} {t("auto-loan-payoff-calculator.months")}
             </SelectItem>
           ))}
         </Select>
         <Input
           size="lg"
-          placeholder="Remaining months"
+          placeholder={t("auto-loan-payoff-calculator.remaining-months")}
           type="number"
           name="remainingMonths"
           value={form.remainingMonths ? form.remainingMonths.toString() : ""}
           onChange={handleInputChange}
           label={
             <h2 className="text-lg font-semibold">
-              How many months are left on your loan term?
+              {t(
+                "auto-loan-payoff-calculator.how-many-months-are-left-on-your-loan-term",
+              )}
             </h2>
           }
           labelPlacement="outside"
         />
         <Input
           size="lg"
-          placeholder="Additional monthly payment"
+          placeholder={t(
+            "auto-loan-payoff-calculator.additional-monthly-payment",
+          )}
           type="number"
           name="additionalPayment"
           value={
@@ -160,7 +172,9 @@ export const Calculator = () => {
           onChange={handleInputChange}
           label={
             <h2 className="text-lg font-semibold">
-              What is your additional monthly payment?
+              {t(
+                "auto-loan-payoff-calculator.what-is-your-additional-monthly-payment",
+              )}
             </h2>
           }
           startContent={
@@ -190,17 +204,31 @@ export const Calculator = () => {
         <div className="mt-8 flex w-full flex-col items-center gap-4">
           {result !== null && (
             <div className="mt-4 text-lg font-semibold">
-              Your new monthly payment is: ${result.toFixed(2)}
+              {t("auto-loan-payoff-calculator.your-new-monthly-payment-is")}: $
+              {result.toFixed(2)}
             </div>
           )}
           {result && (
-            <Table aria-label="calculate result table" isStriped>
+            <Table
+              aria-label={t(
+                "auto-loan-payoff-calculator.calculate-result-table",
+              )}
+              isStriped
+            >
               <TableHeader>
-                <TableColumn>Period</TableColumn>
-                <TableColumn>Monthly payment</TableColumn>
-                <TableColumn>Principal</TableColumn>
-                <TableColumn>Monthly interest</TableColumn>
-                <TableColumn>Principal balance</TableColumn>
+                <TableColumn>
+                  {t("auto-loan-payoff-calculator.period")}
+                </TableColumn>
+                <TableColumn>
+                  {t("auto-loan-payoff-calculator.monthly-payment")}
+                </TableColumn>
+                <TableColumn>
+                  {t("auto-loan-payoff-calculator.principal")}
+                </TableColumn>
+                <TableColumn>{t("Site.monthly-interest")}</TableColumn>
+                <TableColumn>
+                  {t("auto-loan-payoff-calculator.principal-balance")}
+                </TableColumn>
               </TableHeader>
               <TableBody>
                 {tableData.map((item, index) => (

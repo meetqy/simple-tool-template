@@ -2,10 +2,29 @@
   "Site": {
     "description": "解决您生活中的计算问题。",
     "title": "How To Calculator",
-    "views-all-calculators": "查看所有计算器"
+    "views-all-calculators": "查看所有计算器",
+    "monthly-interest": "每月利息"
   },
   "auto-loan-payoff-calculator": {
     "description": "使用我们的汽车贷款还款计算器来估计您的每月还款额和还款日期。",
-    "title": "汽车贷款还款计算器"
+    "title": "汽车贷款还款计算器",
+    "additional-monthly-payment": "每月额外付款",
+    "calculate-result-table": "计算结果表",
+    "how-long-is-your-loan-term": "您的贷款期限是多长？",
+    "how-many-months-are-left-on-your-loan-term": "您的贷款期限还剩多少个月？",
+    "interest-rate": "利率",
+    "key": "$",
+    "loan-amount": "贷款金额",
+    "monthly-payment": "每月付款",
+    "months": "几个月",
+    "period": "时期",
+    "principal": "主要的",
+    "principal-balance": "本金余额",
+    "remaining-months": "剩余月份",
+    "what-is-the-interest-rate-on-your-loan": "您的贷款利率是多少？",
+    "what-is-your-additional-monthly-payment": "您每月的额外付款是多少？",
+    "what-is-your-loan-amount": "您的贷款金额是多少？",
+    "your-new-monthly-payment-is": "您新的每月付款是",
+    "select-loan-term": "选择贷款期限"
   }
 }
