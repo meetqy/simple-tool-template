@@ -47,6 +47,19 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={`${GeistSans.variable}`}>
+      <head>
+        <script
+          defer
+          data-domain="howtocalculator.com"
+          src="https://plausible.moyuo.com/js/script.file-downloads.hash.outbound-links.js"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.plausible = window.plausible || function(){" "}
+          {(window.plausible.q = window.plausible.q || []).push(arguments)}`,
+          }}
+        />
+      </head>
       <body>
         <NextIntlClientProvider messages={messages}>
           <Providers>
