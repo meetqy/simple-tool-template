@@ -26,5 +26,18 @@
     "principal-balance": "Principal balance",
     "calculate-result-table": "calculate result table",
     "select-loan-term": "Select loan term"
+  },
+  "five-number-summary-calculator": {
+    "title": "Five Number Summary Calculator",
+    "description": "Calculate the five number summary of a data set."
+  },
+  "audiobook-speed-calculator": {
+    "title": "Audiobook Speed Calculator",
+    "description": "Calculate the time it will take to listen to an audiobook at a specific speed.",
+    "audiobook-length-hours": "Audiobook length (hours)",
+    "playback-speed": "Playback speed",
+    "listen-time": "Listening time: {time} hours",
+    "time-saved": "Time saved: {time} hours",
+    "calculate": "Calculate"
   }
 }

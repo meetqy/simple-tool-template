@@ -26,5 +26,18 @@
     "what-is-your-additional-monthly-payment": "您每個月的額外付款是多少？",
     "what-is-your-loan-amount": "您的貸款金額是多少？",
     "your-new-monthly-payment-is": "您新的每月付款是"
+  },
+  "audiobook-speed-calculator": {
+    "audiobook-length-hours": "有聲書長度（小時）",
+    "description": "計算以特定速度聆聽有聲書所需的時間。",
+    "listen-time": "收聽時間：{time} 小時",
+    "playback-speed": "播放速度",
+    "time-saved": "節省時間：{time} 小時",
+    "title": "有聲書速度計算器",
+    "calculate": "計算"
+  },
+  "five-number-summary-calculator": {
+    "description": "計算資料集的五數匯總。",
+    "title": "五數匯總計算器"
   }
 }

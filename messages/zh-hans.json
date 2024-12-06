@@ -26,5 +26,18 @@
     "what-is-your-loan-amount": "您的贷款金额是多少？",
     "your-new-monthly-payment-is": "您新的每月付款是",
     "select-loan-term": "选择贷款期限"
+  },
+  "audiobook-speed-calculator": {
+    "audiobook-length-hours": "有声读物长度（小时）",
+    "description": "计算以特定速度收听有声读物所需的时间。",
+    "listen-time": "收听时间：{time} 小时",
+    "playback-speed": "播放速度",
+    "time-saved": "节省时间：{time} 小时",
+    "title": "有声读物速度计算器",
+    "calculate": "计算"
+  },
+  "five-number-summary-calculator": {
+    "description": "计算数据集的五数汇总。",
+    "title": "五数汇总计算器"
   }
 }
