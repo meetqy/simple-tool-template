@@ -71,7 +71,9 @@ export const Calculator = () => {
           {t("audiobook-speed-calculator.calculate")}
         </Button>
 
-        <Divider className="mt-8 w-full" />
+        {listeningTime !== null && timeSaved !== null && (
+          <Divider className="mt-8 w-full" />
+        )}
         {listeningTime !== null && timeSaved !== null && (
           <div className="mt-4 font-mono text-lg font-semibold">
             <p>
