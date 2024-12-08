@@ -39,5 +39,15 @@
     "listen-time": "Listening time: {time} hours",
     "time-saved": "Time saved: {time} hours",
     "calculate": "Calculate"
+  },
+  "asphalt-calculator": {
+    "title": "Asphalt Calculator",
+    "description": "Calculate the amount of asphalt needed for your project.",
+    "imperial-in-ft-yd-lbs-tons": "Imperial (in, ft, yd, lbs, tons)",
+    "metric-cm-m-kg-tonnes": "Metric (cm, m, kg, tonnes)",
+    "hotmix-asphalt-required": "Hotmix Asphalt required",
+    "asphalt-weight": "Asphalt weight",
+    "estimated-cost": "Estimated Cost",
+    "unit-system": "Unit System"
   }
 }

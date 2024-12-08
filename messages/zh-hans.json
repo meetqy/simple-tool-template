@@ -39,5 +39,15 @@
   "five-number-summary-calculator": {
     "description": "计算数据集的五数汇总。",
     "title": "五数汇总计算器"
+  },
+  "asphalt-calculator": {
+    "asphalt-weight": "沥青重量",
+    "description": "计算您的项目所需的沥青量。",
+    "estimated-cost": "预计费用",
+    "hotmix-asphalt-required": "需要热拌沥青",
+    "imperial-in-ft-yd-lbs-tons": "英制 (in, ft, yd, lbs, tons)",
+    "metric-cm-m-kg-tonnes": "公制 (cm, m, kg, tonnes)",
+    "title": "沥青计算器",
+    "unit-system": "单位制"
   }
 }

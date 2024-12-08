@@ -39,5 +39,15 @@
   "five-number-summary-calculator": {
     "description": "計算資料集的五數匯總。",
     "title": "五數匯總計算器"
+  },
+  "asphalt-calculator": {
+    "asphalt-weight": "瀝青重量",
+    "description": "計算您的項目所需的瀝青量。",
+    "estimated-cost": "預計費用",
+    "hotmix-asphalt-required": "需要熱拌瀝青",
+    "imperial-in-ft-yd-lbs-tons": "英制 (in, ft, yd, lbs, tons)",
+    "metric-cm-m-kg-tonnes": "公制 (cm, m, kg, tonnes)",
+    "title": "瀝青計算器",
+    "unit-system": "單位制"
   }
 }
