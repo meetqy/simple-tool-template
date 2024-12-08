@@ -1,0 +1,53 @@
+{
+  "Site": {
+    "description": "人生における計算問題を解決します。",
+    "monthly-interest": "月利",
+    "title": "電卓の使い方",
+    "views-all-calculators": "すべての計算機を表示します"
+  },
+  "asphalt-calculator": {
+    "asphalt-weight": "アスファルト重量",
+    "description": "プロジェクトに必要なアスファルトの量を計算します。",
+    "estimated-cost": "推定コスト",
+    "hotmix-asphalt-required": "ホットミックスアスファルトが必要です",
+    "imperial-in-ft-yd-lbs-tons": "インペリアル (in, ft, yd, lbs, tons)",
+    "metric-cm-m-kg-tonnes": "メートル法 (cm, m, kg, tonnes)",
+    "title": "アスファルト計算機",
+    "unit-system": "単位系"
+  },
+  "audiobook-speed-calculator": {
+    "audiobook-length-hours": "オーディオブックの長さ (時間)",
+    "calculate": "計算する",
+    "description": "オーディオブックを特定の速度で聞くのにかかる時間を計算します。",
+    "listen-time": "リスニング時間: {time} 時間",
+    "playback-speed": "再生速度",
+    "time-saved": "節約された時間: {time} 時間",
+    "title": "オーディオブック速度計算ツール"
+  },
+  "auto-loan-payoff-calculator": {
+    "additional-monthly-payment": "追加の月々の支払い",
+    "calculate-result-table": "計算結果テーブル",
+    "description": "自動車ローン返済計算ツールを使用して、毎月の支払い額と返済日を見積もります。",
+    "how-long-is-your-loan-term": "融資期間はどれくらいですか?",
+    "how-many-months-are-left-on-your-loan-term": "融資期間はあと何ヶ月残っていますか?",
+    "interest-rate": "金利",
+    "key": "$",
+    "loan-amount": "融資額",
+    "monthly-payment": "月々のお支払い",
+    "months": "月",
+    "period": "期間",
+    "principal": "主要",
+    "principal-balance": "元本残高",
+    "remaining-months": "残りの月数",
+    "select-loan-term": "融資期間を選択してください",
+    "title": "自動ローン返済計算機",
+    "what-is-the-interest-rate-on-your-loan": "ローンの金利はいくらですか?",
+    "what-is-your-additional-monthly-payment": "追加の月々の支払いはいくらですか?",
+    "what-is-your-loan-amount": "あなたの融資額はいくらですか？",
+    "your-new-monthly-payment-is": "新しい月々のお支払い額は、"
+  },
+  "five-number-summary-calculator": {
+    "description": "データセットの 5 つの数値の要約を計算します。",
+    "title": "5 つの数字の要約計算機"
+  }
+}

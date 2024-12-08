@@ -3,13 +3,7 @@
 import { Button } from "@nextui-org/react";
 import { useLocale } from "next-intl";
 import Link from "next/link";
-import { usePathname } from "~/i18n/routing";
-
-const languages = [
-  { locale: "en", name: "English", icon: "🇺🇸" },
-  { locale: "zh-hans", name: "简体中文", icon: "🇨🇳" },
-  { locale: "zh-hant", name: "繁體中文", icon: "🇨🇳" },
-];
+import { languages, usePathname } from "~/i18n/routing";
 
 export const Languages = () => {
   const pathname = usePathname();

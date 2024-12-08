@@ -19,7 +19,15 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
 export default async function Page({ params }: { params: Params }) {
   const { locale } = await params;
-  const Article = (await import(`./article/${locale}.mdx`)).default;
+
+  let Article = () => <div>In translation...</div>;
+
+  try {
+    Article = (await import(`./article/${locale}.mdx`)).default;
+  } catch (e) {
+    // console.error(e);
+    console.log(e);
+  }
 
   return (
     <section className="tool-container">
