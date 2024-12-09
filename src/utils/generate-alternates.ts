@@ -1,4 +1,4 @@
-export function generateAlternates(pathname = "/") {
+export function generateAlternates(pathname = "") {
   const baseUrl = process.env.NEXT_PUBLIC_HOST;
 
   return {
@@ -8,6 +8,7 @@ export function generateAlternates(pathname = "/") {
         en: `${baseUrl}${pathname}`,
         "zh-hans": `${baseUrl}/zh-hans/${pathname}`,
         "zh-hant": `${baseUrl}/zh-hant/${pathname}`,
+        ja: `${baseUrl}/ja/${pathname}`,
       },
     },
   };
