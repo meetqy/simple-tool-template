@@ -49,5 +49,16 @@
   "five-number-summary-calculator": {
     "description": "データセットの 5 つの数値の要約を計算します。",
     "title": "5 つの数字の要約計算機"
+  },
+  "baby-eye-color-calculator": {
+    "description": "両親の目の色に基づいて赤ちゃんの目の色を予測します。",
+    "heterozygous-more-likely": "ヘテロ接合性 (可能性が高い)",
+    "homozygous-less-likely": "ホモ接合性 (可能性は低い)",
+    "select-parent-1-eye-color": "親 1 の目の色を選択してください",
+    "select-parent-2-eye-color": "親 2 の目の色を選択してください",
+    "title": "赤ちゃんの目の色計算機"
+  },
+  "common": {
+    "calculator": "電卓"
   }
 }

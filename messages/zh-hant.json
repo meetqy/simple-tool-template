@@ -49,5 +49,16 @@
     "metric-cm-m-kg-tonnes": "公制 (cm, m, kg, tonnes)",
     "title": "瀝青計算器",
     "unit-system": "單位制"
+  },
+  "baby-eye-color-calculator": {
+    "description": "根據父母的眼睛顏色來預測寶寶的眼睛顏色。",
+    "heterozygous-more-likely": "雜合子（更有可能）",
+    "homozygous-less-likely": "純合子（可能性較小）",
+    "select-parent-1-eye-color": "選擇父級 1 眼睛顏色",
+    "select-parent-2-eye-color": "選擇父級 2 眼睛顏色",
+    "title": "嬰兒眼睛顏色計算器"
+  },
+  "common": {
+    "calculator": "計算機"
   }
 }

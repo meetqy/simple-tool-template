@@ -84,7 +84,7 @@ export const Calculator = () => {
       <CardHeader>
         <h1 className="h1">{t("asphalt-calculator.title")}</h1>
       </CardHeader>
-      <CardBody className="gap-4 space-y-4">
+      <CardBody className="mt-8 gap-4 space-y-4">
         <RadioGroup
           label={t("asphalt-calculator.unit-system")}
           value={unitSystem}

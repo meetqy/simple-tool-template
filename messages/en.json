@@ -5,6 +5,9 @@
     "views-all-calculators": "views all calculators",
     "monthly-interest": "Monthly interest"
   },
+  "common": {
+    "calculator": "Calculator"
+  },
   "auto-loan-payoff-calculator": {
     "title": "Auto Loan Payoff Calculator",
     "description": "Use our auto loan payoff calculator to estimate your monthly payments and payoff date.",
@@ -49,5 +52,13 @@
     "asphalt-weight": "Asphalt weight",
     "estimated-cost": "Estimated Cost",
     "unit-system": "Unit System"
+  },
+  "baby-eye-color-calculator": {
+    "title": "Baby Eye Color Calculator",
+    "description": "Predict the eye color of your baby based on the eye colors of the parents.",
+    "select-parent-1-eye-color": "Select Parent 1 Eye Color",
+    "select-parent-2-eye-color": "Select Parent 2 Eye Color",
+    "homozygous-less-likely": "Homozygous (Less likely)",
+    "heterozygous-more-likely": "Heterozygous (More likely)"
   }
 }

@@ -23,10 +23,15 @@ export const Grid = () => {
       title: t("asphalt-calculator.title"),
       description: t("asphalt-calculator.description"),
     },
+    {
+      href: "/health/baby-eye-color-calculator",
+      title: t("baby-eye-color-calculator.title"),
+      description: t("baby-eye-color-calculator.description"),
+    },
   ];
 
   return (
-    <main className="container my-12 max-w-screen-xl columns-1 gap-4 p-4 sm:columns-2 xl:columns-3">
+    <main className="container my-12 grid max-w-screen-xl columns-1 gap-4 p-4 sm:grid-cols-2 lg:grid-cols-3 xl:gap-8">
       {calculators.map((calculator, index) => (
         <Card key={index} className="relative w-full">
           <Link
@@ -36,7 +41,7 @@ export const Grid = () => {
             {calculator.title}
           </Link>
           <CardHeader className="p-0">
-            <div className="flex aspect-video w-full items-center justify-center bg-foreground text-background">
+            <div className="flex aspect-video w-full items-center justify-center bg-foreground p-4 text-background">
               <h2 className="h2 border-0 text-center">{calculator.title}</h2>
             </div>
           </CardHeader>
