@@ -60,5 +60,9 @@
     "select-parent-2-eye-color": "Select Parent 2 Eye Color",
     "homozygous-less-likely": "Homozygous (Less likely)",
     "heterozygous-more-likely": "Heterozygous (More likely)"
+  },
+  "kd-calculator-kill-to-death-ratio": {
+    "title": "KD Calculator - Kill to Death Ratio",
+    "description": "Calculate your kill to death ratio with this simple tool."
   }
 }

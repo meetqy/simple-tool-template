@@ -28,6 +28,11 @@ export const Grid = () => {
       title: t("baby-eye-color-calculator.title"),
       description: t("baby-eye-color-calculator.description"),
     },
+    {
+      href: "/game/kd-calculator-kill-to-death-ratio",
+      title: t("kd-calculator-kill-to-death-ratio.title"),
+      description: t("kd-calculator-kill-to-death-ratio.description"),
+    },
   ];
 
   return (

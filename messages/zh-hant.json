@@ -60,5 +60,9 @@
   },
   "common": {
     "calculator": "計算機"
+  },
+  "kd-calculator-kill-to-death-ratio": {
+    "description": "使用這個簡單的工具計算您的殺戮與死亡比率。",
+    "title": "KD 計算器 - 殺戮與死亡比率"
   }
 }

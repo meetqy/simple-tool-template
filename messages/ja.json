@@ -60,5 +60,9 @@
   },
   "common": {
     "calculator": "電卓"
+  },
+  "kd-calculator-kill-to-death-ratio": {
+    "description": "このシンプルなツールを使用して、致死率を計算します。",
+    "title": "KD 計算機 - 殺害対死亡率"
   }
 }
