@@ -66,6 +66,8 @@ export const Calculator = () => {
           />
         </div>
 
+        <p className="h2">Result</p>
+
         <div>
           <Input
             type="number"
