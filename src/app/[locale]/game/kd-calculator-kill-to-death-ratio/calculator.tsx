@@ -74,6 +74,7 @@ export const Calculator = () => {
             labelPlacement="outside"
             size="lg"
             value={kda.toString()}
+            disabled
             classNames={{
               label: "!text-lg !font-semibold text-foreground !text-primary",
             }}
@@ -87,6 +88,7 @@ export const Calculator = () => {
             placeholder="KD Ratio"
             labelPlacement="outside"
             size="lg"
+            disabled
             value={kd.toString()}
             classNames={{
               label: "!text-lg !font-semibold text-foreground !text-primary",
