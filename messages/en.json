@@ -64,5 +64,14 @@
   "kd-calculator-kill-to-death-ratio": {
     "title": "KD Calculator - Kill to Death Ratio",
     "description": "Calculate your kill to death ratio with this simple tool."
+  },
+  "veaero-calculator": {
+    "title": "VEAERO Calculator",
+    "description": "Calculate the airspeed, surface area, coefficient, and air density of a VEAERO object.",
+    "choose-calculation": "Choose Calculation",
+    "speed": "Speed",
+    "surface-area": "Surface Area",
+    "coefficient": "Coefficient",
+    "air-density": "Air Density"
   }
 }

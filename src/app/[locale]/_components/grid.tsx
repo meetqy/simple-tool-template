@@ -33,6 +33,11 @@ export const Grid = () => {
       title: t("kd-calculator-kill-to-death-ratio.title"),
       description: t("kd-calculator-kill-to-death-ratio.description"),
     },
+    {
+      href: "/transportation/veaero-calculator",
+      title: t("veaero-calculator.title"),
+      description: t("veaero-calculator.description"),
+    },
   ];
 
   return (

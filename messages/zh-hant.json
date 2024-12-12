@@ -64,5 +64,13 @@
   "kd-calculator-kill-to-death-ratio": {
     "description": "使用這個簡單的工具計算您的殺戮與死亡比率。",
     "title": "KD 計算器 - 殺戮與死亡比率"
+  },
+  "veaero-calculator": {
+    "air-density": "空氣密度",
+    "choose-calculation": "選擇計算",
+    "coefficient": "係數",
+    "speed": "速度",
+    "surface-area": "表面積",
+    "title": "VEAERO 計算器"
   }
 }
