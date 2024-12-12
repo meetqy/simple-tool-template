@@ -71,6 +71,7 @@
     "coefficient": "系数",
     "speed": "速度",
     "surface-area": "表面积",
-    "title": "VEAERO 计算器"
+    "title": "VEAERO 计算器",
+    "description": "计算 VEAERO 物体的空速、表面积、系数和空气密度。"
   }
 }

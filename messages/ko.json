@@ -71,6 +71,7 @@
     "coefficient": "계수",
     "speed": "속도",
     "surface-area": "표면적",
-    "title": "VEAERO 계산기"
+    "title": "VEAERO 계산기",
+    "description": "VEAERO 물체의 대기 속도, 표면적, 계수 및 공기 밀도를 계산합니다."
   }
 }

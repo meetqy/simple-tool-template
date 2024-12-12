@@ -71,6 +71,7 @@
     "coefficient": "係數",
     "speed": "速度",
     "surface-area": "表面積",
-    "title": "VEAERO 計算器"
+    "title": "VEAERO 計算器",
+    "description": "計算 VEAERO 物體的空速、表面積、係數和空氣密度。"
   }
 }

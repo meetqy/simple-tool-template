@@ -71,6 +71,7 @@
     "coefficient": "係数",
     "speed": "スピード",
     "surface-area": "表面積",
-    "title": "VEAERO 計算機"
+    "title": "VEAERO 計算機",
+    "description": "VEAERO オブジェクトの対気速度、表面積、係数、空気密度を計算します。"
   }
 }
