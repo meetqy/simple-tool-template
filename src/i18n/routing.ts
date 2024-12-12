@@ -6,6 +6,7 @@ export const languages = [
   { locale: "zh-hans", name: "简体中文", icon: "🇨🇳" },
   { locale: "zh-hant", name: "繁體中文", icon: "🇨🇳" },
   { locale: "ja", name: "日本語", icon: "🇯🇵" },
+  { locale: "ko", name: "한국어", icon: "🇰🇷" },
 ];
 
 export const routing = defineRouting({

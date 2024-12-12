@@ -1,0 +1,68 @@
+{
+  "Site": {
+    "description": "인생의 계산 문제를 해결하십시오.",
+    "monthly-interest": "월이자",
+    "title": "계산기 사용법",
+    "views-all-calculators": "모든 계산기 보기"
+  },
+  "asphalt-calculator": {
+    "asphalt-weight": "아스팔트 무게",
+    "description": "프로젝트에 필요한 아스팔트의 양을 계산하십시오.",
+    "estimated-cost": "예상 비용",
+    "hotmix-asphalt-required": "핫믹스 아스팔트 필요",
+    "imperial-in-ft-yd-lbs-tons": "영국식(in, ft, yd, lbs, 톤)",
+    "metric-cm-m-kg-tonnes": "미터법(cm, m, kg, 톤)",
+    "title": "아스팔트 계산기",
+    "unit-system": "단위계"
+  },
+  "audiobook-speed-calculator": {
+    "audiobook-length-hours": "오디오북 길이(시간)",
+    "calculate": "믿다",
+    "description": "특정 속도로 오디오북을 듣는 데 걸리는 시간을 계산합니다.",
+    "listen-time": "청취 시간: {time} 시간",
+    "playback-speed": "재생 속도",
+    "time-saved": "절약된 시간: {time}시간",
+    "title": "오디오북 속도 계산기"
+  },
+  "auto-loan-payoff-calculator": {
+    "additional-monthly-payment": "추가 월별 결제",
+    "calculate-result-table": "계산 결과 테이블",
+    "description": "자동 대출 상환 계산기를 사용하여 월별 상환액과 상환일을 추정해 보세요.",
+    "how-long-is-your-loan-term": "대출 기간은 얼마나 되나요?",
+    "how-many-months-are-left-on-your-loan-term": "대출기간은 몇개월 남았나요?",
+    "interest-rate": "이자율",
+    "key": "$",
+    "loan-amount": "대출금액",
+    "monthly-payment": "월별 결제",
+    "months": "개월",
+    "period": "기간",
+    "principal": "주요한",
+    "principal-balance": "원금 잔액",
+    "remaining-months": "남은 달",
+    "select-loan-term": "대출기간을 선택하세요",
+    "title": "자동 대출 상환 계산기",
+    "what-is-the-interest-rate-on-your-loan": "대출 이자율은 얼마입니까?",
+    "what-is-your-additional-monthly-payment": "추가 월별 지불금은 얼마입니까?",
+    "what-is-your-loan-amount": "귀하의 대출 금액은 얼마입니까?",
+    "your-new-monthly-payment-is": "새로운 월별 결제액은 다음과 같습니다."
+  },
+  "baby-eye-color-calculator": {
+    "description": "부모의 눈 색깔을 바탕으로 아기의 눈 색깔을 예측해보세요.",
+    "heterozygous-more-likely": "이형접합성(가능성이 더 높음)",
+    "homozygous-less-likely": "동형접합성(가능성이 낮음)",
+    "select-parent-1-eye-color": "상위 1 눈 색깔 선택",
+    "select-parent-2-eye-color": "부모 2 눈 색깔 선택",
+    "title": "아기 눈 색깔 계산기"
+  },
+  "common": {
+    "calculator": "계산자"
+  },
+  "five-number-summary-calculator": {
+    "description": "데이터 세트의 5개 숫자 요약을 계산합니다.",
+    "title": "5개 숫자 요약 계산기"
+  },
+  "kd-calculator-kill-to-death-ratio": {
+    "description": "이 간단한 도구를 사용하여 사망 비율을 계산해 보세요.",
+    "title": "KD 계산기 - 사살 비율"
+  }
+}
