@@ -55,7 +55,8 @@
     "title": "아기 눈 색깔 계산기"
   },
   "common": {
-    "calculator": "계산자"
+    "calculator": "계산자",
+    "monetary-unit": "₩"
   },
   "five-number-summary-calculator": {
     "description": "데이터 세트의 5개 숫자 요약을 계산합니다.",
@@ -73,5 +74,15 @@
     "surface-area": "표면적",
     "title": "VEAERO 계산기",
     "description": "VEAERO 물체의 대기 속도, 표면적, 계수 및 공기 밀도를 계산합니다."
+  },
+  "mobile-home-mortgage-calculator": {
+    "description": "이동 주택에 대한 월별 모기지 지불액을 계산해 보세요.",
+    "monthly-payment": "월별 결제",
+    "monthly-property-insurance": "월재산보험",
+    "monthly-property-taxes": "월별 재산세",
+    "mortgage-amount": "모기지 금액",
+    "mortgage-period-years": "모기지 기간(년)",
+    "title": "모바일 홈 모기지 계산기",
+    "interest-rate": "이자율(%)"
   }
 }

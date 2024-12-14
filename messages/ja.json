@@ -59,7 +59,8 @@
     "title": "赤ちゃんの目の色計算機"
   },
   "common": {
-    "calculator": "電卓"
+    "calculator": "電卓",
+    "monetary-unit": "JPY"
   },
   "kd-calculator-kill-to-death-ratio": {
     "description": "このシンプルなツールを使用して、致死率を計算します。",
@@ -73,5 +74,15 @@
     "surface-area": "表面積",
     "title": "VEAERO 計算機",
     "description": "VEAERO オブジェクトの対気速度、表面積、係数、空気密度を計算します。"
+  },
+  "mobile-home-mortgage-calculator": {
+    "description": "トレーラーハウスの毎月の住宅ローンの支払いを計算します。",
+    "monthly-payment": "月々のお支払い",
+    "monthly-property-insurance": "毎月の損害保険",
+    "monthly-property-taxes": "毎月の固定資産税",
+    "mortgage-amount": "住宅ローンの金額",
+    "mortgage-period-years": "住宅ローン期間 (年)",
+    "title": "モバイル住宅ローン計算機",
+    "interest-rate": "金利 （％）"
   }
 }

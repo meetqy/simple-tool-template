@@ -3,7 +3,10 @@ import { generateAlternates } from "~/utils/generate-alternates";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const categories = {
-    financial: ["/financial/auto-loan-payoff-calculator"],
+    financial: [
+      "/financial/auto-loan-payoff-calculator",
+      "/financial/mobile-home-mortgage-calculator",
+    ],
     media: ["/media/audiobook-speed-calculator"],
     construction: ["/construction/asphalt-calculator"],
     health: ["/health/baby-eye-color-calculator"],

@@ -6,7 +6,8 @@
     "monthly-interest": "Monthly interest"
   },
   "common": {
-    "calculator": "Calculator"
+    "calculator": "Calculator",
+    "monetary-unit": "$"
   },
   "auto-loan-payoff-calculator": {
     "title": "Auto Loan Payoff Calculator",
@@ -73,5 +74,15 @@
     "surface-area": "Surface Area",
     "coefficient": "Coefficient",
     "air-density": "Air Density"
+  },
+  "mobile-home-mortgage-calculator": {
+    "title": "Mobile Home Mortgage Calculator",
+    "description": "Calculate your monthly mortgage payment for a mobile home.",
+    "mortgage-amount": "Mortgage Amount",
+    "mortgage-period-years": "Mortgage Period (Years)",
+    "monthly-property-taxes": "Monthly Property Taxes",
+    "monthly-property-insurance": "Monthly Property Insurance",
+    "monthly-payment": "Monthly Payment",
+    "interest-rate": "Interest Rate (%)"
   }
 }

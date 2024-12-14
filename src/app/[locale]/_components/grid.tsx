@@ -14,6 +14,11 @@ export const Grid = () => {
       description: t("auto-loan-payoff-calculator.description"),
     },
     {
+      href: "/financial/mobile-home-mortgage-calculator",
+      title: t("mobile-home-mortgage-calculator.title"),
+      description: t("mobile-home-mortgage-calculator.description"),
+    },
+    {
       href: "/media/audiobook-speed-calculator",
       title: t("audiobook-speed-calculator.title"),
       description: t("audiobook-speed-calculator.description"),

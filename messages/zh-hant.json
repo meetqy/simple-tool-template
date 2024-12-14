@@ -59,7 +59,8 @@
     "title": "嬰兒眼睛顏色計算器"
   },
   "common": {
-    "calculator": "計算機"
+    "calculator": "計算機",
+    "monetary-unit": "HKD"
   },
   "kd-calculator-kill-to-death-ratio": {
     "description": "使用這個簡單的工具計算您的殺戮與死亡比率。",
@@ -73,5 +74,15 @@
     "surface-area": "表面積",
     "title": "VEAERO 計算器",
     "description": "計算 VEAERO 物體的空速、表面積、係數和空氣密度。"
+  },
+  "mobile-home-mortgage-calculator": {
+    "description": "計算移動房屋的每月抵押貸款付款。",
+    "monthly-payment": "每月付款",
+    "monthly-property-insurance": "每月財產保險",
+    "monthly-property-taxes": "每月財產稅",
+    "mortgage-amount": "抵押金額",
+    "mortgage-period-years": "抵押期限（年）",
+    "title": "移動房屋抵押貸款計算器",
+    "interest-rate": "利率 （％）"
   }
 }
