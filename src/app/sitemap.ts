@@ -9,11 +9,12 @@ export const navs = {
   media: ["/media/audiobook-speed-calculator"],
   construction: [
     "/construction/asphalt-calculator",
-    "/construction/calculate-board-feet", // 新增路径
+    "/construction/calculate-board-feet",
   ],
   health: ["/health/baby-eye-color-calculator"],
   game: ["/game/kd-calculator-kill-to-death-ratio"],
   transportation: ["/transportation/veaero-calculator"],
+  electrical: ["/electrical/watts-to-amps-calculator"], // 新增分类
 };
 
 export default function sitemap(): MetadataRoute.Sitemap {
