@@ -33,6 +33,11 @@ export const Grid = () => {
         title: t("asphalt-calculator.title"),
         description: t("asphalt-calculator.description"),
       },
+      {
+        href: "/construction/calculate-board-feet",
+        title: t("calculate-board-feet.title"),
+        description: t("calculate-board-feet.description"),
+      },
     ],
     health: [
       {
