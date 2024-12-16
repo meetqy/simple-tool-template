@@ -94,5 +94,12 @@
     "title": "計算板英尺",
     "total-board-feet": "總板英尺",
     "width": "寬度"
+  },
+  "watts-to-amps-calculator": {
+    "amps-a": "安培 (A)",
+    "description": "瓦 到 安培 計算器",
+    "title": "瓦 到 安培 計算器",
+    "voltage-v": "電壓（伏特）",
+    "watts-w": "瓦 (W)"
   }
 }

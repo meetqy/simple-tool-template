@@ -94,5 +94,12 @@
     "width": "Width",
     "length": "Length",
     "total-board-feet": "Total Board Feet"
+  },
+  "watts-to-amps-calculator": {
+    "title": "Watts to Amps Calculator",
+    "description": "Watts to Amps Calculator",
+    "watts-w": "Watts (W)",
+    "voltage-v": "Voltage (V)",
+    "amps-a": "Amps (A)"
   }
 }

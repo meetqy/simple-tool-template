@@ -94,5 +94,12 @@
     "title": "보드 피트 계산",
     "total-board-feet": "총 보드 피트",
     "width": "너비"
+  },
+  "watts-to-amps-calculator": {
+    "amps-a": "암페어(A)",
+    "description": "와트에서 암페어로 계산기",
+    "title": "와트에서 암페어로 계산기",
+    "voltage-v": "전압(V)",
+    "watts-w": "와트(W)"
   }
 }

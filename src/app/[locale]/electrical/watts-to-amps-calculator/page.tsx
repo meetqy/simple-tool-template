@@ -13,8 +13,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
   );
 
   return {
-    title: "Watts to Amps Calculator",
-    description: "Watts to Amps Calculator",
+    title: t("watts-to-amps-calculator.title"),
+    description: t("watts-to-amps-calculator.description"),
     alternates,
   };
 };

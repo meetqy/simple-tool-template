@@ -94,5 +94,12 @@
     "title": "ボードフィートを計算する",
     "total-board-feet": "合計ボードフィート",
     "width": "幅"
+  },
+  "watts-to-amps-calculator": {
+    "amps-a": "アンプ(A)",
+    "description": "ワットからアンペアへの計算",
+    "title": "ワットからアンペアへの計算",
+    "voltage-v": "電圧(V)",
+    "watts-w": "ワット (W)"
   }
 }
