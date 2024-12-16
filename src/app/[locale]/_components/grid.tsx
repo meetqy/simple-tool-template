@@ -2,65 +2,29 @@
 
 import { Card, CardHeader, CardBody } from "@nextui-org/react";
 import { useTranslations } from "next-intl";
+import { navs } from "~/app/sitemap";
 import { Link } from "~/i18n/routing";
 
 export const Grid = () => {
   const t = useTranslations();
 
-  const categories = {
-    financial: [
-      {
-        href: "/financial/auto-loan-payoff-calculator",
-        title: t("auto-loan-payoff-calculator.title"),
-        description: t("auto-loan-payoff-calculator.description"),
-      },
-      {
-        href: "/financial/mobile-home-mortgage-calculator",
-        title: t("mobile-home-mortgage-calculator.title"),
-        description: t("mobile-home-mortgage-calculator.description"),
-      },
-    ],
-    media: [
-      {
-        href: "/media/audiobook-speed-calculator",
-        title: t("audiobook-speed-calculator.title"),
-        description: t("audiobook-speed-calculator.description"),
-      },
-    ],
-    construction: [
-      {
-        href: "/construction/asphalt-calculator",
-        title: t("asphalt-calculator.title"),
-        description: t("asphalt-calculator.description"),
-      },
-      {
-        href: "/construction/calculate-board-feet",
-        title: t("calculate-board-feet.title"),
-        description: t("calculate-board-feet.description"),
-      },
-    ],
-    health: [
-      {
-        href: "/health/baby-eye-color-calculator",
-        title: t("baby-eye-color-calculator.title"),
-        description: t("baby-eye-color-calculator.description"),
-      },
-    ],
-    game: [
-      {
-        href: "/game/kd-calculator-kill-to-death-ratio",
-        title: t("kd-calculator-kill-to-death-ratio.title"),
-        description: t("kd-calculator-kill-to-death-ratio.description"),
-      },
-    ],
-    transportation: [
-      {
-        href: "/transportation/veaero-calculator",
-        title: t("veaero-calculator.title"),
-        description: t("veaero-calculator.description"),
-      },
-    ],
-  };
+  const categories = Object.entries(navs).reduce(
+    (acc, [category, items]) => {
+      acc[category] = items.map((href) => {
+        const slug = href.split("/").pop() ?? "";
+        return {
+          href,
+          title: t(`${slug}.title`),
+          description: t(`${slug}.description`),
+        };
+      });
+      return acc;
+    },
+    {} as Record<
+      string,
+      { href: string; title: string; description: string }[]
+    >,
+  );
 
   return (
     <section className="container grid max-w-screen-xl gap-12 p-4 xl:p-0">
