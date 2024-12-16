@@ -8,7 +8,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       "/financial/mobile-home-mortgage-calculator",
     ],
     media: ["/media/audiobook-speed-calculator"],
-    construction: ["/construction/asphalt-calculator"],
+    construction: [
+      "/construction/asphalt-calculator",
+      "/construction/calculate-board-feet", // 新增路径
+    ],
     health: ["/health/baby-eye-color-calculator"],
     game: ["/game/kd-calculator-kill-to-death-ratio"],
     transportation: ["/transportation/veaero-calculator"],

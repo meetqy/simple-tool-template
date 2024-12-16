@@ -84,5 +84,15 @@
     "mortgage-period-years": "住宅ローン期間 (年)",
     "title": "モバイル住宅ローン計算機",
     "interest-rate": "金利 （％）"
+  },
+  "calculate-board-feet": {
+    "description": "建設プロジェクトのボードフィートを計算します。",
+    "length": "長さ",
+    "no-of-pieces": "個数",
+    "select-unit": "ユニットの選択",
+    "thickness": "厚さ",
+    "title": "ボードフィートを計算する",
+    "total-board-feet": "合計ボードフィート",
+    "width": "幅"
   }
 }

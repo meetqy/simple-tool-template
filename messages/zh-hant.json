@@ -84,5 +84,15 @@
     "mortgage-period-years": "抵押期限（年）",
     "title": "移動房屋抵押貸款計算器",
     "interest-rate": "利率 （％）"
+  },
+  "calculate-board-feet": {
+    "description": "計算您的建築項目的板英尺。",
+    "length": "長度",
+    "no-of-pieces": "件數",
+    "select-unit": "選擇單位",
+    "thickness": "厚度",
+    "title": "計算板英尺",
+    "total-board-feet": "總板英尺",
+    "width": "寬度"
   }
 }

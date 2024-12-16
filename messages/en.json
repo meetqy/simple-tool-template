@@ -84,5 +84,15 @@
     "monthly-property-insurance": "Monthly Property Insurance",
     "monthly-payment": "Monthly Payment",
     "interest-rate": "Interest Rate (%)"
+  },
+  "calculate-board-feet": {
+    "title": "Calculate Board Feet",
+    "description": "Calculate board feet for your construction project.",
+    "select-unit": "Select unit",
+    "no-of-pieces": "No. of pieces",
+    "thickness": "Thickness",
+    "width": "Width",
+    "length": "Length",
+    "total-board-feet": "Total Board Feet"
   }
 }

@@ -11,6 +11,7 @@ const config = {
     "plugin:@typescript-eslint/stylistic-type-checked",
   ],
   rules: {
+    "@typescript-eslint/no-unsafe-return": "off",
     "react/no-unescaped-entities": "off",
     "@typescript-eslint/no-unsafe-assignment": "off",
     "@typescript-eslint/no-unsafe-call": "off",
