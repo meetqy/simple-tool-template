@@ -97,9 +97,9 @@
   },
   "watts-to-amps-calculator": {
     "amps-a": "암페어(A)",
-    "description": "와트에서 암페어로 계산기",
-    "title": "와트에서 암페어로 계산기",
     "voltage-v": "전압(V)",
-    "watts-w": "와트(W)"
+    "watts-w": "와트(W)",
+    "description": "와트를 암페어 계산기로 변환",
+    "title": "와트를 암페어 계산기로 변환"
   }
 }

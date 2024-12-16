@@ -97,9 +97,9 @@
   },
   "watts-to-amps-calculator": {
     "amps-a": "安培 (A)",
-    "description": "瓦 到 安培 計算器",
-    "title": "瓦 到 安培 計算器",
-    "voltage-v": "電壓（伏特）",
+    "description": "瓦(W) 到 安培(A) 計算器",
+    "title": "瓦(W) 到 安培(A) 計算器",
+    "voltage-v": "電壓 (W)",
     "watts-w": "瓦 (W)"
   }
 }
