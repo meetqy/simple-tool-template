@@ -10,11 +10,12 @@ export const navs = {
   construction: [
     "/construction/asphalt-calculator",
     "/construction/calculate-board-feet",
+    "/construction/calculate-linear-feet", // 新增路径
   ],
   health: ["/health/baby-eye-color-calculator"],
   game: ["/game/kd-calculator-kill-to-death-ratio"],
   transportation: ["/transportation/veaero-calculator"],
-  electrical: ["/electrical/watts-to-amps-calculator"], // 新增分类
+  electrical: ["/electrical/watts-to-amps-calculator"],
 };
 
 export default function sitemap(): MetadataRoute.Sitemap {

@@ -101,5 +101,12 @@
     "watts-w": "Watts (W)",
     "voltage-v": "Voltage (V)",
     "amps-a": "Amps (A)"
+  },
+  "calculate-linear-feet": {
+    "title": "Linear Feet Calculator",
+    "description": "Calculate linear feet for your construction project.",
+    "linear-feet": "Linear Feet:",
+    "width-inches": "Width (inches)",
+    "square-feet": "Square Feet"
   }
 }

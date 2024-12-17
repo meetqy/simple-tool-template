@@ -101,5 +101,10 @@
     "title": "瓦(W) 到 安培(A) 計算器",
     "voltage-v": "電壓 (W)",
     "watts-w": "瓦 (W)"
+  },
+  "calculate-linear-feet": {
+    "description": "計算您的建築項目的線性英尺。",
+    "linear-feet": "線性腳：",
+    "title": "線性英尺計算器"
   }
 }
