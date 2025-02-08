@@ -11,7 +11,7 @@ export const MyNavbar = () => {
         <Icon className="size-8" icon={"token-branded:kda"} />
         <LinkUi
           as={Link}
-          className="absolute -bottom-1 left-7 font-serif text-xl font-bold italic text-inherit"
+          className="ml-2 font-serif text-xl font-bold italic text-inherit"
           href="/"
         >
           Simple Tool Template
