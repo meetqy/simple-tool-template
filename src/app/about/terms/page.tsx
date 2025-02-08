@@ -1,139 +1,169 @@
 export default function Page() {
   return (
-    <article className="prose lg:prose-xl">
-      <h1>Terms and Conditions</h1>
+    <article className="prose prose-lg mx-auto">
+      <h1>Simple Tool Template</h1>
       <p>
-        <strong>Last Updated:</strong> 2025-02-08
+        A single-function tool website template. Focus on building your core
+        tool while leveraging a ready-made structure with internationalization
+        (i18n) and SEO optimization. Ideal for quickly deploying small, focused
+        utilities.
       </p>
 
-      <h2>1. Acceptance of Terms</h2>
-      <p>
-        By accessing or using KDCalculator.org (the "Website"), you agree to be
-        bound by these Terms and Conditions ("Terms"). If you do not agree to
-        these Terms, please do not access or use the Website.
-      </p>
-
-      <h2>2. Use of the Website</h2>
-      <p>
-        KDCalculator.org provides a free online Kill/Death (KD) ratio calculator
-        for various games. You may use the Website for personal and
-        non-commercial purposes only. You agree not to:
-      </p>
+      <h2>✨ Features</h2>
       <ul>
         <li>
-          Use the Website in any way that violates any applicable law or
-          regulation.
+          <strong>🌍 Internationalization (i18n) Support:</strong> Built-in
+          support for multiple languages using <code>next-intl</code>.
         </li>
         <li>
-          Interfere with or disrupt the operation of the Website or the servers
-          or networks used to make the Website available.
+          <strong>📱 Responsive Design:</strong> Works seamlessly on all
+          devices.
         </li>
         <li>
-          Attempt to gain unauthorized access to the Website or any related
-          systems or networks.
+          <strong>🎨 Beautiful UI with NextUI:</strong> Modern and visually
+          appealing user interface using the NextUI component library.
         </li>
         <li>
-          Use any automated means (such as bots, spiders, or scrapers) to access
-          or collect data from the Website.
+          <strong>🚀 Fast and SEO-Friendly with Next.js:</strong> Leverages the
+          performance and SEO benefits of the Next.js framework.
         </li>
         <li>
-          Modify, adapt, translate, reverse engineer, decompile, or disassemble
-          any portion of the Website.
+          <strong>💻 Easy Development Workflow:</strong> Streamlined development
+          experience for rapid iteration.
+        </li>
+        <li>
+          <strong>🔍 SEO Optimized with Multi-Language Support:</strong>{" "}
+          Optimized for search engines with support for meta descriptions and
+          content in multiple languages. Easily translate your tool description
+          for broader reach.
         </li>
       </ul>
 
-      <h2>3. Disclaimer of Warranties</h2>
-      <p>
-        THE WEBSITE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF
-        ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
-        IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
-        AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE WEBSITE WILL BE
-        UNINTERRUPTED, ERROR-FREE, OR FREE OF VIRUSES OR OTHER HARMFUL
-        COMPONENTS.
-      </p>
-      <p>
-        WE MAKE NO REPRESENTATIONS OR WARRANTIES ABOUT THE ACCURACY,
-        RELIABILITY, COMPLETENESS, OR TIMELINESS OF THE CONTENT AVAILABLE ON THE
-        WEBSITE. THE KD CALCULATIONS PROVIDED BY THE WEBSITE ARE FOR
-        INFORMATIONAL PURPOSES ONLY AND SHOULD NOT BE CONSIDERED AS PROFESSIONAL
-        ADVICE.
-      </p>
-
-      <h2>4. Limitation of Liability</h2>
-      <p>
-        TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, WE SHALL NOT BE
-        LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE
-        DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY
-        OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE
-        LOSSES, RESULTING FROM:
-      </p>
+      <h2>🛠️ Tech Stack</h2>
       <ul>
         <li>
-          YOUR ACCESS TO OR USE OF OR INABILITY TO ACCESS OR USE THE WEBSITE.
+          <a href="https://nextjs.org/">Next.js</a>: React framework for
+          production, providing server-side rendering, static site generation,
+          and routing.
         </li>
-        <li>ANY CONDUCT OR CONTENT OF ANY THIRD PARTY ON THE WEBSITE.</li>
-        <li>ANY CONTENT OBTAINED FROM THE WEBSITE.</li>
         <li>
-          UNAUTHORIZED ACCESS, USE, OR ALTERATION OF YOUR TRANSMISSIONS OR
-          CONTENT.
+          <a href="https://next-intl-docs.vercel.app/">next-intl</a>: The
+          internationalization (i18n) library used to manage translations and
+          locale routing.
+        </li>
+        <li>
+          <a href="https://nextui.org/">NextUI</a>: A React UI library that
+          offers pre-built, stylish components based on Tailwind CSS.
+        </li>
+        <li>
+          <a href="https://tailwindcss.com/">Tailwind CSS</a>: A utility-first
+          CSS framework for rapidly styling the application.
+        </li>
+        <li>
+          <a href="https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally">
+            VSCode i18n Ally
+          </a>
+          : A VSCode extension for efficient one-click translation of{" "}
+          <code>i18n.json</code> files.
         </li>
       </ul>
 
-      <h2>5. Intellectual Property</h2>
-      <p>
-        The Website and its original content, features, and functionality are
-        owned by [Your Name/Company Name] and are protected by international
-        copyright, trademark, patent, trade secret, and other intellectual
-        property or proprietary rights laws.
-      </p>
-      <p>
-        You may not reproduce, distribute, modify, create derivative works of,
-        publicly display, publicly perform, republish, download, store, or
-        transmit any of the material on our Website, except as follows:
-      </p>
-      <ul>
+      <h2>🚀 Quick Start</h2>
+
+      <h3>
+        <strong>Clone the repository:</strong>
+      </h3>
+      <pre>
+        <code>
+          git clone https://github.com/meetqy/simple-tool-template.git
+        </code>
+      </pre>
+
+      <h3>
+        <strong>Install dependencies:</strong>
+      </h3>
+      <pre>
+        <code>pnpm install</code>
+      </pre>
+
+      <h3>
+        <strong>Copy environment variables:</strong>
+      </h3>
+      <pre>
+        <code>cp .env.example .env</code>
+      </pre>
+
+      <h3>
+        <strong>Run the development server:</strong>
+      </h3>
+      <pre>
+        <code>pnpm dev</code>
+      </pre>
+
+      <h2>📖 How to Use</h2>
+      <ol>
         <li>
-          Your computer may temporarily store copies of such materials in RAM
-          incidental to your accessing and viewing those materials.
+          <strong>Implement Your Tool:</strong> Add the core functionality of
+          your tool within the <code>src</code> directory.
         </li>
         <li>
-          You may store files that are automatically cached by your Web browser
-          for display enhancement purposes.
+          <strong>Translate Content:</strong> Update translations for various
+          languages in the <code>messages</code> directory. Use VSCode i18n Ally
+          for efficient translation.
         </li>
-      </ul>
+        <li>
+          <strong>Optimize for SEO:</strong> Modify SEO-related content (meta
+          descriptions, titles) for each language to improve search engine
+          rankings.
+        </li>
+        <li>
+          <strong>Customize the UI:</strong> Use NextUI components to customize
+          the look and feel of your website.
+        </li>
+        <li>
+          <strong>Deploy Your Site:</strong> Deploy your application to a
+          hosting provider like Vercel, Netlify, or AWS.
+        </li>
+      </ol>
 
-      <h2>6. Third-Party Links</h2>
+      <h2>📝 i18n Setup</h2>
+      <ol>
+        <li>
+          <strong>Add New Languages:</strong> Create new language files within
+          the <code>messages</code> directory. Follow the existing file
+          structure.
+        </li>
+        <li>
+          <strong>Use VSCode i18n Ally:</strong> Install and configure the
+          VSCode i18n Ally extension for quick and easy translations directly
+          within your IDE.
+        </li>
+        <li>
+          <strong>Update Language Switcher:</strong> Modify the language
+          switcher in the navigation to include the newly added languages.
+        </li>
+      </ol>
+
+      <h2>📄 License</h2>
       <p>
-        The Website may contain links to third-party websites or resources. We
-        are not responsible for the content, accuracy, or availability of these
-        external sites. Links to such websites or resources do not imply any
-        endorsement by us. You acknowledge and agree that we shall not be
-        responsible or liable, directly or indirectly, for any damage or loss
-        caused or alleged to be caused by or in connection with the use of or
-        reliance on any content, goods, or services available on or through any
-        such websites or resources.
+        <a href="LICENSE">MIT License</a>
       </p>
 
-      <h2>7. Modifications to Terms</h2>
-      <p>
-        We reserve the right to modify these Terms at any time, without prior
-        notice. Your continued use of the Website after any such changes
-        constitutes your acceptance of the new Terms. It is your responsibility
-        to review these Terms periodically for any updates or changes.
-      </p>
-
-      <h2>8. Governing Law</h2>
-      <p>
-        These Terms shall be governed by and construed in accordance with the
-        laws of [Your State/Country], without regard to its conflict of law
-        provisions.
-      </p>
-
-      <h2>9. Contact Us</h2>
-      <p>
-        If you have any questions about these Terms, please contact us at:{" "}
-        <a href="mailto:meetqy@icloud.com">meetqy@icloud.com</a>
-      </p>
+      <h2>🤝 Contributing</h2>
+      <ol>
+        <li>Fork the repository</li>
+        <li>
+          Create your feature branch (
+          <code>git checkout -b feature/your-feature</code>)
+        </li>
+        <li>
+          Commit your changes (<code>git commit -m 'Add some feature'</code>)
+        </li>
+        <li>
+          Push to the branch (<code>git push origin feature/your-feature</code>)
+        </li>
+        <li>Create a new Pull Request</li>
+      </ol>
     </article>
   );
 }

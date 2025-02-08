@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { siteConfig } from "~/config/siteConfig";
+
 const navigation = {
   main: [
     { name: "Terms", href: "/about/terms" },
@@ -25,7 +28,11 @@ export function Footer() {
         </nav>
 
         <p className="mt-8 text-center text-sm text-white/80">
-          &copy; {new Date().getFullYear()} KD Calculator. All rights reserved.
+          &copy; {new Date().getFullYear()} {siteConfig.title}. All rights
+          reserved. Made by{" "}
+          <Link href={"https://github.com/meetqy/simple-tool-template"}>
+            meetqy/simple-tool-template
+          </Link>
         </p>
       </div>
     </footer>
