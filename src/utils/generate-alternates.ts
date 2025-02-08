@@ -1,15 +1,21 @@
+import { languages } from "~/i18n/routing";
+
 export function generateAlternates(pathname = "") {
   const baseUrl = process.env.NEXT_PUBLIC_HOST;
+
+  const json: Record<string, string> = {};
+
+  languages.forEach(({ locale }) => {
+    json[locale] =
+      locale === "en"
+        ? `${baseUrl}${pathname}`
+        : `${baseUrl}/${locale}${pathname}`;
+  });
 
   return {
     alternates: {
       canonical: `${baseUrl}${pathname}`,
-      languages: {
-        en: `${baseUrl}${pathname}`,
-        "zh-hans": `${baseUrl}/zh-hans${pathname}`,
-        "zh-hant": `${baseUrl}/zh-hant${pathname}`,
-        ja: `${baseUrl}/ja${pathname}`,
-      },
+      languages: json,
     },
   };
 }

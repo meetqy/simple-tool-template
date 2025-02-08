@@ -10,7 +10,7 @@ import { Languages } from "~/components/languages";
 import { generateAlternates } from "~/utils/generate-alternates";
 
 export const generateMetadata = async (): Promise<Metadata> => {
-  const { alternates } = generateAlternates();
+  const { alternates } = generateAlternates("/");
   const t = await getTranslations();
 
   return {
