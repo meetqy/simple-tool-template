@@ -30,7 +30,10 @@ export function Footer() {
         <p className="mt-8 text-center text-sm text-white/80">
           &copy; {new Date().getFullYear()} {siteConfig.title}. All rights
           reserved. Made by{" "}
-          <Link href={"https://github.com/meetqy/simple-tool-template"}>
+          <Link
+            href={"https://github.com/meetqy/simple-tool-template"}
+            target="_blank"
+          >
             meetqy/simple-tool-template
           </Link>
         </p>

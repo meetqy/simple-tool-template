@@ -1,6 +1,6 @@
 export default function Page() {
   return (
-    <article className="prose prose-lg mx-auto">
+    <article className="prose prose-xl mx-auto">
       <h1>Simple Tool Template</h1>
       <p>
         A single-function tool website template. Focus on building your core
