@@ -64,7 +64,7 @@ export default function Page() {
             VSCode i18n Ally
           </a>
           : A VSCode extension for efficient one-click translation of{" "}
-          <code>i18n.json</code> files.
+          <code>(en/ja/ko).json</code> files.
         </li>
       </ul>
 
