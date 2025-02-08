@@ -1,11 +1,11 @@
-export function Footer() {
-  const navigation = {
-    main: [
-      { name: "Terms", href: "/about/terms" },
-      { name: "Privacy Policy", href: "/about/privacy-policy" },
-    ],
-  };
+const navigation = {
+  main: [
+    { name: "Terms", href: "/about/terms" },
+    { name: "Privacy Policy", href: "/about/privacy-policy" },
+  ],
+};
 
+export function Footer() {
   return (
     <footer className="bg-gradient-to-br from-blue-900 to-purple-900">
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-8">

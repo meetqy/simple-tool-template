@@ -1,29 +1,78 @@
-# Create T3 App
+# Simple Tool Template
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+A single-function tool website template. Focus on building your core tool while leveraging a ready-made structure with internationalization (i18n) and SEO optimization. Ideal for quickly deploying small, focused utilities.
 
-## What's next? How do I make an app with this?
+## ✨ Features
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+- **🌍 Internationalization (i18n) Support:** Built-in support for multiple languages using `next-intl`.
+- **📱 Responsive Design:** Works seamlessly on all devices.
+- **🎨 Beautiful UI with NextUI:** Modern and visually appealing user interface using the NextUI component library.
+- **🚀 Fast and SEO-Friendly with Next.js:** Leverages the performance and SEO benefits of the Next.js framework.
+- **💻 Easy Development Workflow:** Streamlined development experience for rapid iteration.
+- **🔍 SEO Optimized with Multi-Language Support:** Optimized for search engines with support for meta descriptions and content in multiple languages. Easily translate your tool description for broader reach.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## 🛠️ Tech Stack
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- **[Next.js](https://nextjs.org/):** React framework for production, providing server-side rendering, static site generation, and routing.
+- **[next-intl](https://next-intl-docs.vercel.app/):** The internationalization (i18n) library used to manage translations and locale routing.
+- **[NextUI](https://nextui.org/):** A React UI library that offers pre-built, stylish components based on Tailwind CSS.
+- **[Tailwind CSS](https://tailwindcss.com/):** A utility-first CSS framework for rapidly styling the application.
+- **[VSCode i18n Ally](https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally):** A VSCode extension for efficient one-click translation of `i18n.json` files.
 
-## Learn More
+## 🚀 Quick Start
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+### **Clone the repository:**
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+```bash
+git clone https://github.com/yourusername/simple-tool-template.git
+```
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+### **Install dependencies:**
 
-## How do I deploy this?
+```bash
+pnpm install
+```
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+### **Copy environment variables:**
+
+```bash
+cp .env.example .env
+```
+
+### **Run the development server:**
+
+```bash
+pnpm dev
+```
+
+## 📖 How to Use
+
+1. **Implement Your Tool:** Add the core functionality of your tool within the `src` directory.
+
+2. **Translate Content:** Update translations for various languages in the `messages` directory. Use VSCode i18n Ally for efficient translation.
+
+3. **Optimize for SEO:** Modify SEO-related content (meta descriptions, titles) for each language to improve search engine rankings.
+
+4. **Customize the UI:** Use NextUI components to customize the look and feel of your website.
+
+5. **Deploy Your Site:** Deploy your application to a hosting provider like Vercel, Netlify, or AWS.
+
+## 📝 i18n Setup
+
+1. **Add New Languages:** Create new language files within the `messages` directory. Follow the existing file structure.
+
+2. **Use VSCode i18n Ally:** Install and configure the VSCode i18n Ally extension for quick and easy translations directly within your IDE.
+
+3. **Update Language Switcher:** Modify the language switcher in the navigation to include the newly added languages.
+
+## 📄 License
+
+[MIT License](LICENSE)
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Create a new Pull Request

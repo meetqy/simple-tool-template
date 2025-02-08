@@ -14,7 +14,7 @@ export const MyNavbar = () => {
           className="absolute -bottom-1 left-7 font-serif text-xl font-bold italic text-inherit"
           href="/"
         >
-          DCalculator
+          Simple Tool Template
         </LinkUi>
       </NavbarBrand>
     </Navbar>
