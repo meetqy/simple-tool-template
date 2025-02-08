@@ -2,7 +2,6 @@ import { type Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
-import { MyNavbar } from "~/components/my-navbar";
 import { Providers } from "~/components/providers";
 import { routing } from "~/i18n/routing";
 import { GeistSans } from "geist/font/sans";

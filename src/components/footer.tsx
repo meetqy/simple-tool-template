@@ -1,31 +1,31 @@
-const navigation = {
-  main: [
-    { name: "Terms", href: "/about/terms" },
-    { name: "Privacy Policy", href: "/about/privacy-policy" },
-  ],
-};
-
 export function Footer() {
+  const navigation = {
+    main: [
+      { name: "Terms", href: "/about/terms" },
+      { name: "Privacy Policy", href: "/about/privacy-policy" },
+    ],
+  };
+
   return (
-    <footer className="bg-foreground">
-      <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
+    <footer className="bg-gradient-to-br from-blue-900 to-purple-900">
+      <div className="mx-auto max-w-7xl overflow-hidden px-6 py-8">
         <nav
           aria-label="Footer"
-          className="-mb-6 flex flex-wrap justify-center gap-x-12 gap-y-3 text-sm/6"
+          className="flex flex-wrap justify-center gap-x-12 gap-y-3"
         >
           {navigation.main.map((item) => (
             <a
               key={item.name}
               href={item.href}
-              className="text-background/60 hover:text-background"
+              className="text-sm text-white/60 transition-colors hover:text-white"
             >
               {item.name}
             </a>
           ))}
         </nav>
 
-        <p className="mt-10 text-center text-sm/6 text-background">
-          &copy; 2024 KD Calculator , Inc. All rights reserved.
+        <p className="mt-8 text-center text-sm text-white/80">
+          &copy; {new Date().getFullYear()} KD Calculator. All rights reserved.
         </p>
       </div>
     </footer>
