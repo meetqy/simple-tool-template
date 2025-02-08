@@ -1,6 +1,6 @@
 import { languages } from "~/i18n/routing";
 
-export function generateAlternates(pathname = "") {
+export function getAlternates(pathname = "") {
   const baseUrl = process.env.NEXT_PUBLIC_HOST;
 
   const json: Record<string, string> = {};

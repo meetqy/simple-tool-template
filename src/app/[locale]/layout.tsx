@@ -7,16 +7,16 @@ import { routing } from "~/i18n/routing";
 import { GeistSans } from "geist/font/sans";
 import { Footer } from "~/components/footer";
 import { Languages } from "~/components/languages";
-import { generateAlternates } from "~/utils/generate-alternates";
+import { getAlternates } from "~/utils/get-alternates";
 
 export const generateMetadata = async (): Promise<Metadata> => {
-  const { alternates } = generateAlternates("/");
+  const { alternates } = getAlternates("/");
   const t = await getTranslations();
 
   return {
     title: {
-      default: "Simple Tool Template | Your Tool Name",
-      template: "%s | Your Tool Name",
+      default: "Simple Tool Template",
+      template: "%s | Simple Tool Template",
     },
     description: t("Site.description"),
     alternates,

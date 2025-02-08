@@ -1,4 +1,17 @@
+import { getTranslations } from "next-intl/server";
 import { Tool } from "./tool";
+import { getAlternates } from "~/utils/get-alternates";
+
+export const generateMetadata = async () => {
+  const t = await getTranslations();
+
+  return {
+    title: t("example.title"),
+    description: t("example.description"),
+    alternates: getAlternates("/"),
+    icons: [{ rel: "icon", url: "/favicon.ico" }],
+  };
+};
 
 export default async function Page({
   params,
