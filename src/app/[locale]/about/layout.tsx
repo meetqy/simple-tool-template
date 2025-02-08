@@ -17,7 +17,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <MyNavbar />
-      <div className="my-32">{children}</div>
+      <div className="my-32 px-4">{children}</div>
     </>
   );
 }

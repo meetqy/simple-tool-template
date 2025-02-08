@@ -24,7 +24,7 @@ export default async function Page({
   return (
     <>
       <Tool />
-      <div className="prose mx-auto my-24">
+      <div className="prose mx-auto my-24 px-4">
         <Readme />
       </div>
     </>
