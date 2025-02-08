@@ -1,3 +1,9 @@
+import { Calculator } from "./calculator";
+
 export default function Page() {
-  return <></>;
+  return (
+    <>
+      <Calculator />
+    </>
+  );
 }

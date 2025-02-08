@@ -50,7 +50,6 @@ export default async function LocaleLayout({
       <body>
         <NextIntlClientProvider messages={messages}>
           <Providers>
-            <MyNavbar />
             {children}
             <Languages />
             <Footer />

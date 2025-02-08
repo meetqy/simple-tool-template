@@ -1,65 +1,113 @@
 "use client";
 
-import { Button, Input, Card, CardBody, CardHeader } from "@heroui/react";
+import {
+  Button,
+  Input,
+  Card,
+  CardBody,
+  CardHeader,
+  Divider,
+} from "@heroui/react";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 
 export const Calculator = () => {
-  const t = useTranslations("kd-calculator-kill-to-death-ratio");
+  const t = useTranslations();
   const [kills, setKills] = useState<number>(0);
   const [deaths, setDeaths] = useState<number>(0);
+  const [assists, setAssists] = useState<number>(0);
 
-  const calculateKD = () => {
-    if (deaths === 0) return kills;
-    return (kills / deaths).toFixed(2);
+  const calculateKDA = () => {
+    if (deaths === 0) return (kills + assists).toFixed(2);
+    return ((kills + assists) / deaths).toFixed(2);
   };
 
   return (
-    <Card className="mx-auto max-w-md">
-      <CardHeader className="flex flex-col gap-2">
-        <h1 className="text-center text-2xl font-bold">K/D Calculator</h1>
-        <p className="text-center text-sm text-gray-500">{t("description")}</p>
-      </CardHeader>
+    <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-blue-900 to-purple-900 p-4">
+      <Card className="w-full max-w-xl bg-white/90 shadow-2xl backdrop-blur-md">
+        <CardHeader className="flex flex-col gap-4 bg-gradient-to-r from-blue-600 to-purple-600 p-8">
+          <h1 className="text-center text-4xl font-bold text-white">
+            KDA Calculator
+          </h1>
+          <p className="text-center text-white/80">{t("Site.description")}</p>
+        </CardHeader>
 
-      <CardBody className="flex flex-col gap-6">
-        <div className="flex flex-col gap-4">
-          <Input
-            type="number"
-            label="Kills"
-            placeholder="Enter number of kills"
-            value={kills.toString()}
-            onChange={(e) => setKills(Number(e.target.value))}
-            min={0}
-          />
+        <CardBody className="flex flex-col gap-8 p-8">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+            <Input
+              type="number"
+              label="Kills"
+              placeholder="0"
+              value={kills.toString()}
+              onChange={(e) => setKills(Number(e.target.value))}
+              min={0}
+              size="lg"
+              className="text-large"
+              startContent={
+                <div className="pointer-events-none text-xl text-default-400">
+                  K
+                </div>
+              }
+            />
 
-          <Input
-            type="number"
-            label="Deaths"
-            placeholder="Enter number of deaths"
-            value={deaths.toString()}
-            onChange={(e) => setDeaths(Number(e.target.value))}
-            min={0}
-          />
-        </div>
+            <Input
+              type="number"
+              label="Deaths"
+              placeholder="0"
+              value={deaths.toString()}
+              onChange={(e) => setDeaths(Number(e.target.value))}
+              min={0}
+              size="lg"
+              className="text-large"
+              startContent={
+                <div className="pointer-events-none text-xl text-default-400">
+                  D
+                </div>
+              }
+            />
 
-        <div className="flex flex-col items-center gap-4">
-          <div className="text-center">
-            <p className="text-sm text-gray-500">K/D Ratio</p>
-            <p className="text-3xl font-bold">{calculateKD()}</p>
+            <Input
+              type="number"
+              label="Assists"
+              placeholder="0"
+              value={assists.toString()}
+              onChange={(e) => setAssists(Number(e.target.value))}
+              min={0}
+              size="lg"
+              className="text-large"
+              startContent={
+                <div className="pointer-events-none text-xl text-default-400">
+                  A
+                </div>
+              }
+            />
           </div>
 
-          <Button
-            color="primary"
-            className="w-full"
-            onClick={() => {
-              setKills(0);
-              setDeaths(0);
-            }}
-          >
-            Reset
-          </Button>
-        </div>
-      </CardBody>
-    </Card>
+          <Divider />
+
+          <div className="flex flex-col items-center gap-6">
+            <div className="text-center">
+              <p className="mb-2 text-xl text-gray-600">Your KDA Ratio</p>
+              <p className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-6xl font-bold text-transparent">
+                {calculateKDA()}
+              </p>
+            </div>
+
+            <Button
+              color="primary"
+              size="lg"
+              className="w-full max-w-sm text-lg font-semibold"
+              onPress={() => {
+                setKills(0);
+                setDeaths(0);
+                setAssists(0);
+              }}
+            >
+              Reset Calculator
+            </Button>
+          </div>
+        </CardBody>
+      </Card>
+    </div>
   );
 };
