@@ -16,10 +16,10 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
   return {
     title: {
-      default: t("Site.title"),
-      template: "%s | HowToCalculator",
+      default: "Your KD Calculator | KDCalculator",
+      template: "%s | KDCalculator",
     },
-    description: `HowToCalculator, ${t("Site.description")}`,
+    description: `KDCalculator, ${t("Site.description")}`,
     alternates,
     icons: [{ rel: "icon", url: "/favicon.ico" }],
   };
@@ -47,19 +47,6 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={`${GeistSans.variable}`}>
-      <head>
-        <script
-          defer
-          data-domain="howtocalculator.com"
-          src="https://plausible.moyuo.com/js/script.file-downloads.hash.outbound-links.js"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.plausible = window.plausible || function(){" "}
-          {(window.plausible.q = window.plausible.q || []).push(arguments)}`,
-          }}
-        />
-      </head>
       <body>
         <NextIntlClientProvider messages={messages}>
           <Providers>
