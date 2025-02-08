@@ -2,5 +2,10 @@
   "Site": {
     "title": "Simple Tool Template",
     "description": "A single-function tool website template. Focus on building your core tool while leveraging a ready-made structure with internationalization (i18n) and SEO optimization. Ideal for quickly deploying small, focused utilities."
+  },
+  "example": {
+    "title": "Number Addition Tool",
+    "description": "Add two numbers and get the result instantly",
+    "reset-btn": "Reset Calculator"
   }
 }
