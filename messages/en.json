@@ -1,6 +1,6 @@
 {
   "Site": {
     "title": "Simple Tool Template",
-    "description": "Free online KD calculator. Quickly and accurately calculate your Kill/Death ratio for a variety of popular games."
+    "description": "A single-function tool website template. Focus on building your core tool while leveraging a ready-made structure with internationalization (i18n) and SEO optimization. Ideal for quickly deploying small, focused utilities."
   }
 }

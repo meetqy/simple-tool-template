@@ -1,4 +1,4 @@
-import { Calculator } from "./calculator";
+import { Tool } from "./tool";
 
 export default async function Page({
   params,
@@ -10,7 +10,7 @@ export default async function Page({
 
   return (
     <>
-      <Calculator />
+      <Tool />
       <div className="prose mx-auto my-24">
         <Readme />
       </div>

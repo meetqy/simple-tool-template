@@ -1,5 +1,15 @@
 "use client";
 
+/**
+ * For SEO optimization, we put the Tool component in a separate file and set `use client`.
+ *
+ * You can chat with AI in this file, tell it what tool you want to make,
+ *
+ * Example:
+ * RMB exchange rate calculator,
+ * design it beautifully using HERO's design scheme and heroui components.
+ */
+
 import {
   Button,
   Input,
@@ -11,7 +21,7 @@ import {
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 
-export const Calculator = () => {
+export const Tool = () => {
   const t = useTranslations();
   const [kills, setKills] = useState<number>(0);
   const [deaths, setDeaths] = useState<number>(0);
@@ -27,7 +37,7 @@ export const Calculator = () => {
       <Card className="w-full max-w-xl bg-white/90 shadow-2xl backdrop-blur-md">
         <CardHeader className="flex flex-col gap-4 bg-gradient-to-r from-blue-600 to-purple-600 p-8">
           <h1 className="text-center text-4xl font-bold text-white">
-            KDA Calculator
+            Simple Tool Template
           </h1>
           <p className="text-center text-white/80">{t("Site.description")}</p>
         </CardHeader>

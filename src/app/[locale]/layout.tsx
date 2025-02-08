@@ -15,10 +15,10 @@ export const generateMetadata = async (): Promise<Metadata> => {
 
   return {
     title: {
-      default: "Your KD Calculator | KDCalculator",
-      template: "%s | KDCalculator",
+      default: "Simple Tool Template | Your Tool Name",
+      template: "%s | Your Tool Name",
     },
-    description: `KDCalculator, ${t("Site.description")}`,
+    description: t("Site.description"),
     alternates,
     icons: [{ rel: "icon", url: "/favicon.ico" }],
   };

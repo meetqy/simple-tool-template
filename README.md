@@ -24,7 +24,7 @@ A single-function tool website template. Focus on building your core tool while 
 ### **Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/simple-tool-template.git
+git clone https://github.com/meetqy/simple-tool-template.git
 ```
 
 ### **Install dependencies:**
