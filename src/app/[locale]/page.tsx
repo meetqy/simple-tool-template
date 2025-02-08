@@ -19,7 +19,7 @@ export default async function Page({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const { default: Readme } = await import(`./readme/${locale}.mdx`);
+  const { default: Readme } = await import(`./_readme/${locale}.mdx`);
 
   return (
     <>

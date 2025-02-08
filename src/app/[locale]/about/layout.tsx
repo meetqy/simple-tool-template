@@ -1,5 +1,6 @@
 "use client";
 import { useParams } from "next/navigation";
+import { MyNavbar } from "~/components/my-navbar";
 import { redirect, usePathname } from "~/i18n/routing";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
@@ -13,5 +14,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     });
   }
 
-  return children;
+  return (
+    <>
+      <MyNavbar />
+      <div className="my-32">{children}</div>
+    </>
+  );
 }
