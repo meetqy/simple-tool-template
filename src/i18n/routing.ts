@@ -3,8 +3,9 @@ import { createNavigation } from "next-intl/navigation";
 
 export const languages = [
   { locale: "en", name: "English", icon: "🇺🇸" },
-  { locale: "zh-hans", name: "简体中文", icon: "🇨🇳" },
-  { locale: "zh-hant", name: "繁體中文", icon: "🇨🇳" },
+  { locale: "zh-cn", name: "简体中文", icon: "🇨🇳" },
+  { locale: "zh-hk", name: "繁體 HK", icon: "🇨🇳" },
+  { locale: "zh-tw", name: "繁體 TW", icon: "🇨🇳" },
   { locale: "ja", name: "日本語", icon: "🇯🇵" },
   { locale: "ko", name: "한국어", icon: "🇰🇷" },
 ];
