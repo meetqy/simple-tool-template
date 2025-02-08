@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@nextui-org/react";
+import { Button } from "@heroui/react";
 import { useLocale } from "next-intl";
 import Link from "next/link";
 import { languages, usePathname } from "~/i18n/routing";

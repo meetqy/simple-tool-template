@@ -1,10 +1,10 @@
 "use client";
 
-import { NextUIProvider } from "@nextui-org/react";
+import { HeroUIProvider } from "@heroui/react";
 import { useRouter } from "~/i18n/routing";
 
 export const Providers = ({ children }: { children: React.ReactNode }) => {
   const router = useRouter();
 
-  return <NextUIProvider navigate={router.push}>{children}</NextUIProvider>;
+  return <HeroUIProvider navigate={router.push}>{children}</HeroUIProvider>;
 };

@@ -1,6 +1,6 @@
 "use client";
 
-import { Link as LinkUi, Navbar, NavbarBrand } from "@nextui-org/react";
+import { Link as LinkUi, Navbar, NavbarBrand } from "@heroui/react";
 import { Link } from "~/i18n/routing";
 import { Icon } from "@iconify/react";
 

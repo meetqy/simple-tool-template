@@ -1,10 +1,7 @@
 const navigation = {
   main: [
-    { name: "Financial", href: "#" },
-    { name: "Construction", href: "#" },
-    { name: "Game", href: "#" },
-    { name: "Health", href: "#" },
-    { name: "Media", href: "#" },
+    { name: "Terms", href: "/about/terms" },
+    { name: "Privacy Policy", href: "/about/privacy-policy" },
   ],
 };
 
@@ -28,7 +25,7 @@ export function Footer() {
         </nav>
 
         <p className="mt-10 text-center text-sm/6 text-background">
-          &copy; 2024 How To Calculator , Inc. All rights reserved.
+          &copy; 2024 KD Calculator , Inc. All rights reserved.
         </p>
       </div>
     </footer>
